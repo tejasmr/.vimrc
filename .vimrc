@@ -8,6 +8,10 @@ set showcmd
 syntax enable
 filetype plugin on
 
+" COLOR SCHEME
+
+colorscheme murphy
+
 " FINDING FILES:
 
 " search down into subfolders
@@ -70,3 +74,8 @@ let g:netrw_list_hide=',\(^\|\s\s\)\zs\.\S\+'
 " NOW WE CAN:
 " - Take over the world!
 "   (with much fewer keystrokes)
+
+" FOLDING:
+
+set foldmethod=marker
+
